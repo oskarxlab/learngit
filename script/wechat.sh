@@ -7,8 +7,8 @@
 #########################################################################
 # Functions: send messages to wechat app
 # set variables
-CropID='wx3323878d0f7d465a'
-Secret='eC3JO6rEsFXsqRsxAZcWBpDRWA0Df09jPHIobDZ19oGVJrkgY11qnPBj4Q0HShE5'
+CropID='wx399999999999999'
+Secret='ejjj12345643432wefsdfaajtorg9-0sjhodfjdfj'
 GURL="https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=$CropID&corpsecret=$Secret"
 #get acccess_token
 Gtoken=$(/usr/bin/curl -s -G $GURL | awk -F\" '{print $4}')

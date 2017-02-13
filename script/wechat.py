@@ -53,7 +53,7 @@ if __name__ == '__main__':
     subject = str(sys.argv[2])  #zabbix two content
     content = str(sys.argv[3])  #zabbix three content
 
-    corpid =  'wx3323878d0f7d465a'   #CorpID compaty corpid
-    corpsecret = 'eC3JO6rEsFXsqRsxAZcWBpDRWA0Df09jPHIobDZ19oGVJrkgY11qnPBj4Q0HShE5'  #corpsecretSecret administrators keys
+    corpid =  'exits__oskarx____hub'   #CorpID compaty corpid
+    corpsecret = 'learshid'  #corpsecretSecret administrators keys
     accesstoken = gettoken(corpid,corpsecret)
     senddata(accesstoken,user,subject,content)
